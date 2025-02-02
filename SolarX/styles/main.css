@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://th.bing.com/th/id/OIP.fsp6smim5tcgqiatlFW_VQHaDt?w=4000&h=2000&rs=1&pid=ImgDetMain') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 39, 77, 0.8); /* Dark transparent background */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #FFD700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(45deg, #FFD700, #FF6347); /* Gradient for a vibrant effect */
+    -webkit-background-clip: text; 
+    background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for depth */
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+header .logo h1:hover {
+    transform: scale(1.2); /* Logo enlarges on hover */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    background-color: rgba(0, 39, 77, 0.8);
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: rgba(0, 39, 77, 0.8);
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#contact a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Product Section */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.product-item {
+    background-color: rgba(0, 39, 77, 0.7); /* Darker background for products */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #FFD700;
+}
+
+.product-item .price {
+    color: #00A86B;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.buy-btn {
+    background-color: #FFD700;
+    color: #00274D;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #F4A261;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    header .logo h1 {
+        font-size: 2rem;
+    }
+}

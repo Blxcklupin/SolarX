@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarX - Solar Panels & Installation</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SolarX</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products" class="product-grid">
+            <h2>Our Solar Panels</h2>
+            <div class="product-item">
+                <img src="images/solar-panel.jpg" alt="Solar Panel">
+                <h3>High-Efficiency Solar Panel</h3>
+                <p class="price">R15,000</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-item">
+                <img src="images/solar-panel-2.jpg" alt="Solar Panel">
+                <h3>Solar Panel Kit</h3>
+                <p class="price">R20,000</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </section>
+
+        <!-- Updated About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At **SolarX**, we understand the daily challenges South Africans face with ongoing **load shedding**. The power outages across the country have become a major inconvenience, impacting homes and businesses alike. We aim to help South Africans regain control of their energy consumption by providing **high-quality solar panels** and **professional installation services**. Solar energy is a sustainable and cost-effective solution that can reduce reliance on the national grid, mitigate the impact of load shedding, and help save on electricity bills in the long run. Join us in embracing clean, green energy and make the shift to **solar power** today!</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+            <p><strong>Phone Number:</strong> +27 683 158 360</p>
+            <p><strong>Email:</strong> <a href="mailto:contact@solarx.com">contact@solarx.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SolarX. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
